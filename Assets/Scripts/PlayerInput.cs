@@ -78,10 +78,11 @@ public class PlayerInput : MonoBehaviour
     }
     private void Update()
     {
+
         //multiple scenes not implemented yet
-        if (shotsTaken == 10 && GameObject.FindGameObjectWithTag("Projectile") == null)
+        if (shotsTaken == 11)
         {
-            SceneManager.LoadScene(1);
+            //do something
         }
     }
 }
